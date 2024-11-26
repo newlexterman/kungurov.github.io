@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+
+
+body {
+  font-family: Michroma, serif;
+  background: radial-gradient(#080808 0%, #73b8e2 98%);
+}
+
+.nav-link {
+  color: aquamarine;
+}
+
+p {
+  color: black;
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(124, 123, 123);
+}
+
+.navbar-brand img {
+  width: 166px;
+}
+
+
+.navbar-toggler {
+  background-color:rgb(124, 123, 123); ;
+}
+
+.sidebar {
+  color: black;
+  background: radial-gradient(#577d8b 0%, #73b8e2 60%);
+
+}
+
+.card {
+  background: radial-gradient(#577d8b 0%, #73b8e2 60%);
+  
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+.slide-text,
+.footer-text{
+  color:black;
+  margin: auto auto;
+}
+  
+footer,
+.btn-outline-primary{
+  background: radial-gradient(#577d8b 0%, #73b8e2 60%);
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-anim {
+  animation: myAnim 2s ease 0s 6 normal forwards;;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
+}
+
+@media (max-width: 755px){
+.carousel-indicators {
+  display: none;
+}
+}
